@@ -1,0 +1,12 @@
+Cargo.toml
+MANIFEST.in
+pyproject.toml
+setup.py
+timing.py
+py.egg-info/PKG-INFO
+py.egg-info/SOURCES.txt
+py.egg-info/dependency_links.txt
+py.egg-info/not-zip-safe
+py.egg-info/top_level.txt
+src/lib.rs
+src/par.rs

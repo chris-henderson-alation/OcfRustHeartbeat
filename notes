@@ -1,0 +1,17 @@
+setuptools-rust
+python ./setup.py develop
+
+docker run --rm -v $(pwd):/io konstin2/maturin build --release
+
+https://github.com/celery/celery/issues/4551
+
+heartbeat-0.1.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl  heartbeat-0.1.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+heartbeat-0.1.0-cp36-cp36m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl   heartbeat-0.1.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+heartbeat-0.1.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl   heartbeat-0.1.0-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+
+
+(env) PROD [alation@alationfc /]$ pip install ./heartbeat-0.1.0-cp36-cp36m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+Processing /heartbeat-0.1.0-cp36-cp36m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+Installing collected packages: heartbeat
+Successfully installed heartbeat-0.1.0
+(env) PROD [alation@alationfc /]$
